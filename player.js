@@ -15,7 +15,7 @@ window.addEventListener('load', function(){
 	soundBotton = document.getElementById('sound-button');
 	sbarContainer = document.getElementById('sbar-container');
 	sbar = document.getElementById('sbar');
-	fullscreenButtom = document.getElementById('fullscreen-button';)
+	fullscreenButtom = document.getElementById('fullscreen-button');
 
 
 	video.load();
@@ -133,8 +133,8 @@ function fullScreen(){
 	else if(video.mozRequestFullscreen){
 		video.mozRequestFullscreen();
 	}
-	else if(video.mozRequestFullscreen){
-		video.mozRequestFullscreen();
+	else if(video.msRequestFullscreen){
+		video.msRequestFullscreen();
 	}
 
 }
